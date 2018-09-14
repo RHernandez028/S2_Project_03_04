@@ -109,7 +109,7 @@ section#rightcol > nav > ul > li:visited {
 
 
 
-
+/* Made the footer stand out a liitle better and centered the text to make it look a little nicer. I chose the font size because it wasnt too large but was still readable. */
 footer{
     background-color: gray;
     font-size: .9em;
