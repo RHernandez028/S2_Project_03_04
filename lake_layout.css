@@ -35,8 +35,8 @@ body > section#leftcol {
 
 body > section#rightcol {
 	width: 24%;
-	float: left;
-	margin-right: 2%;
+	float: right;
+	margin-right: 0px;
 }
 
 footer {

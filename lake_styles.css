@@ -3,7 +3,7 @@
 @font-face {
     font-family: Champagne;
         src: url('cac_champagne.woff') format('woff'),
-            url('cac_champagne.ttf') format('truetype')
+            url('cac_champagne.ttf') format('truetype');
 }
 
 @font-face {
@@ -17,23 +17,103 @@
    Case Problem 4
    
    Great Lakescape Lodge Style Sheet
-   Author: 
-   Date:   
+   Author: Gabriel Hernandez
+   Date: 9/12/18  
    
    Filename: lake_styles.css
 
 */
 
 html{
-    background-color: hsla(0, 90% , 10%, .3)
+     background-color: /*rgba(212, 123, 71, 0.89); */ rgb(175, 70, 80);
+}
+
+body{
+    background-color: cornsilk
 }
 
 
-body > section > h1 {
+
+
+
+header > nav {
+    background-color: rgba(212, 123, 71, 0.89);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+header > nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Section-left column */
+
+section#leftcol h1{
+    margin-left: 5px;
     font-family: 'Champagne', sans-serif;
-    font-size: 10px;
+    font-size: 4em;  
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 10px 0px 5px 30px;
+    margin-bottom: 5px;
 }
 
+section#leftcol img{
+    margin: 0px 30px 10px 30px;
+
+}
+
+section#leftcol > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    margin-left:  30px;
+}
+
+aside{
+    margin: 10px;
+}
+
+section#leftcol > aside{
+    background-color:  rgba(212, 123, 71, 0.75);
+
+}
+
+section#leftcol > aside > h1{
+    background-color:  rgba(212, 123, 71, 0.89);
+    font-size: 2.75em;
+    margin: 0px;
+}
+
+section#leftcol > aside > h2{
+    font-size: 1em;
+}
+
+section#leftcol > aside  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Section-Right Col */
+section#rightcol {
+    background-color: rgba(212, 123, 71, 0.76);
+}  
 section#rightcol h2 {
     font-family: 'Dobkin', sans-serif;
+}
+
+section#rightcol > nav > ul > li:link,
+section#rightcol > nav > ul > li:visited {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+footer{
+    background-color: gray;
+    font-size: .9em;
+    font-family: 'Trebuchet MS', Times, serif;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
 }
